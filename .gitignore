@@ -1,0 +1,15 @@
+# exclude temporary files
+*~
+.*~
+*.swp
+
+# exclude intermediate Latex files
+*.log
+*.dvi
+*.aux
+*.bbl
+
+# exclude intermediate R files
+_Store
+.Rhistory
+.RData
