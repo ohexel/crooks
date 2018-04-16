@@ -5,6 +5,7 @@ Fix indententation to be uniform in whole file: `gg=G`
 
 # `tmux`
 The default prefix is `Ctrl + B`
+
 Create new vertical pane: `prefix %`
 
 Create new horizontal pane: `prefix "`
