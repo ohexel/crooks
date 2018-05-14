@@ -1,6 +1,8 @@
 This is a collection of personal notes on how to achieve various small or not so small tasks in different utilities, mostly vim and tmux (and some git).
 
 # `vim`
+Autocomplete: `C-p` or `C-n`
+
 Fix indententation to be uniform: `=`
 
 Fix indententation to be uniform in whole file: `gg=G`
@@ -13,6 +15,9 @@ jjj
 c[do your thing]
 Esc
 ```
+
+Compile latex files in vim: vimtex plugin + `:vimtexCompile`
+
 
 # `tmux`
 The default prefix is `Ctrl B`
