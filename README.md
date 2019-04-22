@@ -1,6 +1,8 @@
 This is a collection of personal notes on how to achieve various small or not so small tasks in different utilities, mostly vim and tmux (and some git).
 
 # `vim`
+How to avoid the escape key? [Tips](https://vim.fandom.com/wiki/Avoid_the_escape_key) from the Vim Wiki. E.g. use `Ctrl+[` or `Alt/Meta+` `hjkl` (`Alt/Meta` implicitly sends an escape signal).
+
 Some commandline terms:
 
 - `%`: current file
@@ -61,6 +63,12 @@ Uppercase a whole Sentence
 ... Inside of a tag
 
     gUit
+
+How to escape a percent sign that is preceded by a digit?
+
+```
+`%s/\(\d\+\)%/\1\\%/g`
+```
 
 # `tmux`
 The default prefix is `Ctrl B`
